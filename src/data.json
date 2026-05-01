@@ -1,0 +1,626 @@
+{
+  "destinations": [
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "region": "Central",
+      "image": "https://www.foodandwine.com/thmb/9wsyzbtRCcwCs7D0s37eBNpaubE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GT-Best-Global-City-for-Food-Bangkok-FT-BLOG0325-04-0c10093965174c6db724bd2bf9382607.jpg",
+      "poeticDescription": "Where ancient shrines meet futuristic skyline",
+      "pills": ["Urban Pulse", "Street Food", "Ancient Spires"],
+      "dressCode": ["Cover shoulders and knees", "No flip-flops in temples", "Remove shoes before entering"],
+      "customs": ["Wai elder monks first", "Lower head when passing seniors", "Avoid loud voices in sacred areas"],
+      "activities": ["Sunrise at Wat Arun", "Grand Palace Tour", "Chao Phraya Boat Trip"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Bangkok+Thailand",
+      "quote": "The City of Angels, pulse of modern Thailand."
+    },
+    {
+      "id": "chiang-mai",
+      "name": "Chiang Mai",
+      "region": "North",
+      "image": "https://thailandmagazine.com/wp-content/uploads/2025/03/Doi-Inthanon-Park-Credits-fedejve_2048x900.webp",
+      "poeticDescription": "Mist-covered peaks where purple blooms meet the sky",
+      "pills": ["Agro-tourism", "Adventure", "Photo Spot"],
+      "dressCode": ["Warm layers for breeze", "Comfortable walking shoes"],
+      "customs": ["Support local Hill Tribe products", "Respect private farm boundaries"],
+      "activities": ["Wooden Kart Racing", "Strawberry picking", "Skywalk mountain view"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Chiang+Mai+Thailand",
+      "quote": "A breath of fresh air above the clouds of Chiang Mai."
+    },
+    {
+      "id": "ayutthaya",
+      "name": "Ayutthaya",
+      "region": "Central",
+      "image": "https://www.cestee.com/images/15/50/1550-920w.webp",
+      "poeticDescription": "Ruins that whisper Thailand's lost glory",
+      "pills": ["History", "Cycling", "Photography"],
+      "dressCode": ["No sleeveless shirts", "Comfortable walking shoes"],
+      "customs": ["Do not climb on ruins", "Respect Buddha head in tree roots"],
+      "activities": ["River cruise at sunset", "Bicycle temple loop", "Summer Palace visit"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ayutthaya+Thailand",
+      "quote": "Echoes of a golden age etched in brick and stone."
+    },
+    {
+      "id": "kanchanaburi",
+      "name": "Kanchanaburi",
+      "region": "West",
+      "image": "https://www.pelago.com/img/destinations/kanchanaburi/0509-0326_kanchanaburi.jpg",
+      "poeticDescription": "River valleys where history and nature flow as one",
+      "pills": ["Death Railway", "Waterfalls", "Riverside"],
+      "dressCode": ["Comfortable outdoor wear", "Respectful at war memorials"],
+      "customs": ["Silent reflection at memorial sites", "Eco-conscious river travel"],
+      "activities": ["Bridge over the River Kwai", "Erawan Falls", "Railway journey"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Kanchanaburi+Thailand",
+      "quote": "A legacy of resilience amidst verdant jungles."
+    },
+
+
+    {
+      "id": "nan",
+      "name": "Nan",
+      "region": "North",
+      "image": "https://www.maehongsonholidays.com/wp-content/uploads/2023/05/Sapan-Village_27_05_2023.webp",
+      "poeticDescription": "The ancient salt well cradled by emerald valleys",
+      "pills": ["Heritage", "Slow Life", "Scenic Drive"],
+      "dressCode": ["Breathable fabrics", "Light jacket for evenings"],
+      "customs": ["Observe the salt-making process quietly", "Support village homestays"],
+      "activities": ["Watch Sinthao salt boiling", "Drive the scenic Road No. 3", "Relax by the Mang River"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nan+Thailand",
+      "quote": "Where time slows down to the rhythm of boiling salt."
+    },
+    {
+      "id": "mae-hong-son",
+      "name": "Mae Hong Son",
+      "region": "North",
+      "image": "https://images.squarespace-cdn.com/content/v1/5919f7bfd2b857811c061c2f/f1f818d2-9066-4427-bb9c-f1cd24bf0401/mae-hong-son-mae-ya-waterfall.jpg",
+      "poeticDescription": "Morning mist dancing over a sea of green tea",
+      "pills": ["Yunnan Heritage", "Tea Culture", "Lakeside"],
+      "dressCode": ["Heavy winter wear for nights", "Sneakers for hilly paths"],
+      "customs": ["Learn the art of tea pouring", "Respect the Yunnan-Thai heritage"],
+      "activities": ["Sunrise boat trip on the lake", "Yunnanese pork knuckle tasting", "Tea plantation tours"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Mae+Hong+Son+Thailand",
+      "quote": "A hidden Yunnan gem tucked away in the Thai highlands."
+    },
+    {
+      "id": "nakhon-pathom",
+      "name": "Nakhon Pathom",
+      "region": "Central",
+      "image": "https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/content_entry5b155bed5711a8176e9f9783/604c33346c76fc000b48fbe9/files/thailand-nakhon-pathom-travel-photo-20210312103610222-main-image.jpg",
+      "poeticDescription": "Home of the world's tallest stupa and riverside simplicity",
+      "pills": ["Buddhism", "Local Food", "River Life"],
+      "dressCode": ["Modest clothing for temples", "Light casual wear"],
+      "customs": ["Respect sacred stupas", "Quiet in temples"],
+      "activities": ["Phra Pathom Chedi", "Floating market", "Night food street"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Nakhon+Pathom+Thailand",
+      "quote": "Where faith rises in golden calm."
+    },
+    {
+      "id": "lopburi",
+      "name": "Lopburi",
+      "region": "Central",
+      "image": "https://www.khaosodenglish.com/wp-content/uploads/2023/07/monkey-lopburi3.jpg",
+      "poeticDescription": "Ancient ruins watched over by playful monkeys",
+      "pills": ["Lopburi Monkey", "Khmer Ruins", "Sunflower Fields"],
+      "dressCode": ["Secure belongings", "Light clothing"],
+      "customs": ["Do not provoke monkeys", "Respect ruins"],
+      "activities": ["Phra Prang Sam Yot", "Monkey festival", "Old town walk"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Lopburi+Thailand",
+      "quote": "Where history meets untamed curiosity."
+    },
+    {
+      "id": "ratchaburi",
+      "name": "Ratchaburi",
+      "region": "West",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Chomphon_Cave.jpg",
+      "poeticDescription": "Art, mountains, and slow-life riverside charm",
+      "pills": ["Dragon Jars", "Floating Market", "Cave Murals"],
+      "dressCode": ["Casual outdoor clothing", "Comfortable shoes"],
+      "customs": ["Respect local life", "Support local crafts"],
+      "activities": ["Suan Phueng", "Floating market", "Local art spaces"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Ratchaburi+Thailand",
+      "quote": "A quiet escape shaped by hills and creativity."
+    },
+    {
+      "id": "phetchaburi",
+      "name": "Phetchaburi",
+      "region": "West",
+      "image": "https://www.dasta.or.th/uploads/article/202107/1625659217_c37781859f64eca63abd.jpg",
+      "poeticDescription": "Palaces, caves, and coastal heritage intertwined",
+      "pills": ["Hill Palace", "Salt Fields", "Old Town"],
+      "dressCode": ["Modest temple attire", "Comfortable walking shoes"],
+      "customs": ["Respect sacred caves", "Quiet in temples"],
+      "activities": ["Khao Wang Palace", "Tham Khao Luang", "Cha-am beach"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Phetchaburi+Thailand",
+      "quote": "Elegance carved between mountain and sea."
+    },
+    {
+      "id": "prachuap-khiri-khan",
+      "name": "Prachuap Khiri Khan",
+      "region": "West",
+      "image": "https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2025/02/26/ac46e1b8-3e45-4939-8047-f77267a39d26_8b438ccb.jpg",
+      "poeticDescription": "Where mountains meet the calm Gulf shores",
+      "pills": ["Monkey Bay", "Pineapple Fields", "Mountain View"],
+      "dressCode": ["Beachwear at beach", "Cover in town areas"],
+      "customs": ["Respect local lifestyle", "Protect marine nature"],
+      "activities": ["Hua Hin beach", "Khao Sam Roi Yot", "Night markets"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Prachuap+Khiri+Khan+Thailand",
+      "quote": "A gentle coastline of peace and horizon."
+    },
+
+
+    {
+      "id": "samut-songkhram",
+      "name": "Samut Songkhram",
+      "region": "Central",
+      "image": "https://itsbetterinthailand.com/wp-content/uploads/2018/02/Samut-Songkhram-cover.jpg",
+      "poeticDescription": "Where the railway market pulses through local veins",
+      "pills": ["Maeklong Railway", "Firefly Cruise", "Palm Sugar"],
+      "dressCode": ["Casual street wear", "Sun protection"],
+      "customs": ["Respect the train schedule", "Support local floating vendors"],
+      "activities": ["Maeklong Railway Market", "Amphawa Floating Market", "Firefly boat tours"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Samut+Songkhram+Thailand",
+      "quote": "The rhythm of life on the tracks and tides."
+    },
+
+
+    {
+      "id": "sangkhlaburi",
+      "name": "Sangkhlaburi",
+      "region": "West",
+      "image": "https://www.thelostpassport.com/wp-content/uploads/2018/03/Sangkhlaburi-Waterfall.jpg",
+      "poeticDescription": "A wooden bridge of friendship spanning the misty lake",
+      "pills": ["Mon Bridge", "Culture", "Mist"],
+      "dressCode": ["Modest clothing", "Warm layers"],
+      "customs": ["Respect Mon community traditions", "Give alms in the morning"],
+      "activities": ["Crossing the Mon Bridge", "Sunken Temple boat tour", "Mon village cultural immersion"],
+      "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=Sangkhlaburi+Thailand",
+      "quote": "A bridge between cultures, built with faith and wood."
+    },
+    {
+        "id": "Nakhon-Si-Thammarat",
+        "name": "Nakhon Si Thammarat",
+        "region": "South",
+        "image": "https://nakhonsithammarat.m-society.go.th/wp-content/uploads/2020/06/1-17.jpg",
+        "poeticDescription": "The sacred heart of the South, where pure air meets ancient mountain whispers and golden spires.",
+        "pills": [
+            "Dress Code",
+            "Customs",
+            "Activities"
+        ],
+        "dressCode": [
+            "Polite attire for temple visits (Cover shoulders/knees)",
+            "Comfortable clothes for riverside walking",
+            "Sandals for exploring the village streams"
+        ],
+        "customs": [
+            "Observe silent prayer at Wat Phra Mahathat",
+            "Support local artisans at the Leather House",
+            "Follow the eco-conscious rules of Khiri Wong village"
+        ],
+        "activities": [
+            "Visiting the Great Noble Relics Pagoda",
+            "Watching Nang Thalung shadow puppet crafting",
+            "Savoring the purest air in Thailand at Khiri Wong"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/H24CXxZP3tFRJvRMA",
+        "quote": "A timeless journey through faith and nature's embrace."
+    },
+    {
+        "id": "Phuket",
+        "name": "Phuket",
+        "region": "South",
+        "image": "https://cdn.audleytravel.com/4614/3296/79/15979556-phuket-thailand.jpg",
+        "poeticDescription": "The pearl of the Andaman, where Sino-Portuguese charm dances with neon tides and golden sunsets.",
+        "pills": [
+            "Vibe",
+            "Customs",
+            "Activities"
+        ],
+        "dressCode": [
+            "Colorful casual wear for Old Town photography",
+            "Beachwear for Patong’s crystal shores",
+            "Sunblock and shades are essentials"
+        ],
+        "customs": [
+            "Respect the quiet of the Old Town residents",
+            "Keep the beaches pristine and plastic-free",
+            "Be mindful of private property when taking photos"
+        ],
+        "activities": [
+            "Strolling through the Sino-Portuguese Old Town",
+            "Catching the legendary sunset at Promthep Cape",
+            "Enjoying the vibrant energy of Patong Beach"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/wrF8CXyZq7Dk5znz5",
+        "quote": "An island kaleidoscope of heritage, waves, and wonder."
+    },
+    {
+        "id": "Krabi",
+        "name": "Krabi",
+        "region": "South",
+        "image": "https://cdn.sanity.io/images/nxpteyfv/goguides/570ce98021e653542667789417bee72493c43f59-1600x1067.jpg",
+        "poeticDescription": "The emerald kingdom of towering cliffs and secret lagoons hidden beneath the limestone.",
+        "pills": [
+            "Best Time",
+            "Vibe",
+            "Activities"
+        ],
+        "dressCode": [
+            "Quick-dry clothes for island hopping",
+            "Water shoes for rocky lagoons",
+            "Swimwear for the emerald pools"
+        ],
+        "customs": [
+            "Follow National Park rules for the Emerald Pool",
+            "Do not feed the marine life while snorkeling",
+            "Minimize noise in secluded natural areas"
+        ],
+        "activities": [
+            "Swimming in the crystal Emerald Pool",
+            "Rock climbing or relaxing at Railay Beach",
+            "Boating to the world-famous Phi Phi Islands"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/AaZJz2buBBdo5Qv86",
+        "quote": "A masterpiece of limestone, turquoise, and infinite tranquility."
+    },
+    {
+        "id": "nakhon-ratchasima",
+        "name": "Nakhon Ratchasima",
+        "region": "Northeast",
+        "image": "https://www.agoda.com/wp-content/uploads/2024/01/Khao-Yai-An-elephant-on-the-road.jpg",
+        "poeticDescription": "The gateway to the East, where urban heritage meets the whispering wilds of the mountains.",
+        "pills": ["Gateway to Isan", "Silk Heritage", "Nature Reserve"],
+        "dressCode": [
+            "Earth tones for forest treks",
+            "Modest attire for city shrines",
+            "Sturdy footwear for exploration"
+        ],
+        "customs": [
+            "Pay respects at Ya Mo Monument",
+            "Honor the forest spirits at Khao Yai",
+            "Support local silk and clay artisans"
+        ],
+        "activities": [
+            "Exploring Khao Yai National Park",
+            "Visiting Phimai Historical Park",
+            "Strolling through the city night markets"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/3bt6LH7ZV7P4sJ9z9",
+        "quote": "A grand blend of ancient glory and breathtaking nature."
+    },
+    {
+        "id": "ubon-ratchathani",
+        "name": "Ubon Ratchathani",
+        "region": "Northeast",
+        "image": "https://img.salehere.co.th/p/1200x0/2022/01/10/az2sxagihtq4.jpg",
+        "poeticDescription": "The land of the first sunrise, where the mighty Mekong carves stories into the stone.",
+        "pills": ["First Sunrise", "Stone Carvings", "River Border"],
+        "dressCode": [
+            "Sun protection for river tours",
+            "Light fabrics for tropical heat",
+            "Non-slip shoes for rocky terrains"
+        ],
+        "customs": [
+            "Respect the border river traditions",
+            "Participate in the Candle Festival (July)",
+            "Leave no trace on the natural rock formations"
+        ],
+        "activities": [
+            "Witnessing Sam Phan Bok stone carvings",
+            "Sunrise at Pha Taem National Park",
+            "Cruising the Mekong River"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/pNLrAoUueN99WSwn8",
+        "quote": "Where the sun meets the river in a golden embrace."
+    },
+    {
+        "id": "roi-et",
+        "name": "Roi Et",
+        "region": "Northeast",
+        "image": "https://roiet.prd.go.th/th/file/get/file/2020081639ac47aa01e490a58be00babac0070a9205848.jpg",
+        "poeticDescription": "The city of 101 wonders, home to golden spires that bridge the earth and sky.",
+        "pills": ["Golden Pagodas", "City Lake", "Skyline Tower"],
+        "dressCode": [
+            "Polite temple attire (Sleeves and long skirts/pants)",
+            "Remove shoes at sacred sites",
+            "White clothing for meditation visits"
+        ],
+        "customs": [
+            "Walk mindfully within pagoda grounds",
+            "Observe silent prayer in temple halls",
+            "Admire the arts without touching the gold leaf"
+        ],
+        "activities": [
+            "Visiting Phra Maha Chedi Chai Mongkol",
+            "Walking around Phalanchai Lake",
+            "Exploring the Roi Et Tower for city views"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/XfFLqJeJPAspYS2Z9",
+        "quote": "A peaceful sanctuary of faith and towering elegance."
+    },
+    {
+        "id": "trat",
+        "name": "Trat",
+        "region": "East",
+        "image": "https://iamkohchang.com/wp-content/uploads/2025/04/kk-beach2.jpg",
+        "poeticDescription": "The easternmost sanctuary where the sea meets the stars in a dance of pure crystal.",
+        "pills": ["Island Sanctuary", "Mangrove Kayaks", "Eastern Frontier"],
+        "dressCode": [
+            "Swimwear and beach cover-ups",
+            "Light linen for tropical nights",
+            "Flip-flops or water shoes"
+        ],
+        "customs": [
+            "Support eco-friendly island resorts",
+            "Minimize plastic use on remote beaches",
+            "Respect the quiet serenity of local villages"
+        ],
+        "activities": [
+            "Island hopping to Koh Kood or Koh Chang",
+            "Kayaking through lush mangrove forests",
+            "Snorkeling in coral-rich turquoise bays"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/ftSZbNj4tZs2rA3s5",
+        "quote": "Thailand's last untouched frontier of emerald waves and golden sun."
+    },
+    {
+        "id": "chonburi",
+        "name": "Chonburi",
+        "region": "East",
+        "image": "https://therestlessbeans.com/wp-content/uploads/2026/03/intricate-wooden-exterior-statues-sanctuary-of-truth-pattaya-thailand.webp",
+        "poeticDescription": "A vibrant coast where high-tech skylines meet timeless wooden masterpieces.",
+        "pills": ["Coastal Vibe", "Wooden Art", "Tropical Gardens"],
+        "dressCode": [
+            "Modest attire for temples and shrines",
+            "Comfortable footwear for vast garden walks",
+            "Safety gear where required by venues"
+        ],
+        "customs": [
+            "Observe respectful silence in sacred spaces",
+            "Avoid touching delicate carvings and plants",
+            "Follow all safety guidelines at major attractions"
+        ],
+        "activities": [
+            "Visiting the Sanctuary of Truth",
+            "Exploring Nong Nooch Tropical Garden",
+            "Relaxing at Pattaya or Bang Saen beaches"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/ojfzqJESLD1xfcTHA",
+        "quote": "A dynamic gateway where heritage and modern adventure collide."
+    },
+    {
+        "id": "rayong",
+        "name": "Rayong",
+        "region": "East",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/7c/ed/9f/photo2jpg.jpg?w=1200&h=700&s=1",
+        "poeticDescription": "The radiant coast of golden meadows and shimmering white sand islands.",
+        "pills": ["Fruit Paradise", "Golden Meadows", "Island Life"],
+        "dressCode": [
+            "Beachwear for island trips",
+            "Comfortable sandals for mangrove boardwalks",
+            "Light clothes for outdoor seafood dining"
+        ],
+        "customs": [
+            "Dispose of trash properly in National Parks",
+            "Respect the marine life while snorkeling",
+            "Support local fisherman by trying fresh seafood"
+        ],
+        "activities": [
+            "Walking through the Golden Meadow (Thung Prong Thong)",
+            "Boating to the white sands of Koh Samet",
+            "Exploring the ancient Khao Chamao forests"
+        ],
+        "googleMapsUrl": "https://maps.app.goo.gl/x8VRanRy4b4kyLeY8",
+        "quote": "The shimmering gateway to sea-breeze dreams and golden sun rays."
+    }
+  ],
+  "festivals": [
+    { "name": "Songkran Water Festival at Silom", "month": "April", "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/b2/de/d3/songkran-in-silom.jpg?w=1200&h=-1&s=1", "description": "The Thai New Year; a symbolic washing away of misfortunes with water splashing.", "sensitivity": "Medium" },
+    { "name": "Loy Krathong Festival", "month": "November", "image": "https://www.senate.go.th/assets/portals/386/news/236_header.png", "description": "Releasing lotus-shaped baskets into waterways to honor the water spirits.", "sensitivity": "Low" },
+    { "name": "Buddhist Monk Ordination", "month": "Summer / Variable", "image": "https://en.dhammakaya.net/wp-content/uploads/2022/10/IDOP-2-1024x682.webp", "description": "A sacred rite of passage where young men enter the monkhood to merit their family.", "sensitivity": "High" },
+    { "name": "Royal Barge Procession", "month": "Rare / Special Occasions", "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/พระบรมมหาราชวัง-3.jpg", "description": "A majestic river spectacle featuring traditional royal barges and ancient uniforms.", "sensitivity": "High" },
+    {
+      "name": "Muay Thai (The Art of Eight Limbs)",
+      "month": "Year-round",
+      "image": "https://pbs.twimg.com/media/D1irnGaUYAAOsQR.jpg",
+      "description": "Thailand's national martial art and cultural treasure. More than combat, it is a spiritual practice involving the 'Wai Kru' ritual to honor teachers.",
+      "sensitivity": "Medium"
+    },
+    {
+      "name": "Khon Classical Dance",
+      "month": "Special Occasions",
+      "image": "https://www.theluxurysignature.com/wp-content/uploads/2019/02/Khon-Unesco-Intangible-Cultural-Heritage.jpg",
+      "description": "A refined mask dance drama typically based on the Ramakien (the Thai epic). It combines music, vocal literature, and intricate costume design.",
+      "sensitivity": "High"
+    },
+    {
+      "name": "The Wai (Traditional Greeting)",
+      "month": "Variable",
+      "image": "https://cdn.prod.website-files.com/640f633543c4c8600fa8eda3/6452863ec1c01e38f8b2fbd7_thailand-greeting-how-to-wai-2.jpeg",
+      "description": "The ubiquitous Thai greeting, apology, and expression of respect. It is performed by pressing the palms together in a prayer-like gesture at chest or face level, accompanied by a slight bow of the head.",
+      "sensitivity": "Low"
+    },
+    {
+      "name": "Tak Bat (Morning Alms Giving)",
+      "month": "Variable",
+      "image": "https://www.royalparkrajapruek.org/img/upload/20230306-64055690d989a.JPG",
+      "description": "A serene daily ritual where saffron-robed Buddhist monks walk barefoot through the streets at dawn to collect food offerings from the local community. It is a vital way for Thai Buddhists to make merit.",
+      "sensitivity": "High"
+    }
+  ],
+  "heritage_arts": [
+    {
+      "title": "Benjarong Ceramics",
+      "origin": "Central",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1hWoS2juHDtrRNAAm1Lin7FAR9SfQIsw2KQ&s",
+      "description": "Exquisite hand-painted porcelain traditionally using five primary colors. Once reserved for royalty, it is a masterpiece of Thai craftsmanship."
+    },
+    {
+      "title": "Indigo Weaving",
+      "origin": "Northeast (Isan)",
+      "image": "https://images.stockcake.com/public/a/c/d/acd30582-e78e-43e3-9e11-beec293e7b61_large/indigo-textile-detail-stockcake.jpg",
+      "description": "The art of natural dyeing using the indigo plant, creating the iconic 'Matmi' patterns that tell stories of village life."
+    }
+  ],
+  "architecture": [
+    {
+      "style": "Lanna Style",
+      "region": "North",
+      "feature": "Steep multi-tiered roofs and intricate wood carvings",
+      "description": "Reflecting the peaceful nature of the north, focusing on natural teak and elevated structures."
+    },
+    {
+      "style": "Ayutthaya Classical",
+      "region": "Central",
+      "feature": "Prang (corn-cob towers) and bell-shaped stupas",
+      "description": "A fusion of Khmer and early Thai influences, seen in the majestic ruins of the old capital."
+    }
+  ],
+  "dishes": [
+    {
+      "name": "Pad Thai",
+      "region": "Central",
+      "image": "https://www.seriouseats.com/thmb/gLZ3ZlKXVTGpgspZvvS8Afnw2TA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20250214-SEA-PadThai-AmandaSuarez-hero-4251c730d61a40ba935f2d43153d6862.jpg",
+      "spice": 1,
+      "allergens": [
+        "Peanuts",
+        "Fish Sauce"
+      ],
+      "dietary": [
+        "Contains Egg"
+      ],
+      "color": "#d9a066",
+      "isVegan": false
+    },
+    {
+      "name": "Tom Yum Goong",
+      "region": "Central",
+      "image": "https://asianinspirations.com.au/wp-content/uploads/2018/07/R00067_Tom-Yum-Goong.jpg",
+      "spice": 4,
+      "allergens": [
+        "Shellfish",
+        "Fish Sauce"
+      ],
+      "dietary": [
+        "Spicy"
+      ],
+      "color": "#8b4a2a"
+    },
+    {
+      "name": "Khao Soi",
+      "region": "North",
+      "image": "https://www.koktailmagazine.com/wp-content/uploads/2024/11/resized/9ed8cd551104d35167712b5297b7d956-1290x916.png",
+      "spice": 2,
+      "allergens": [
+        "Gluten (Noodles)"
+      ],
+      "dietary": [
+        "North Signature"
+      ],
+      "color": "#f2c94c"
+    },
+    {
+      "name": "Som Tum",
+      "region": "Northeast",
+      "image": "https://img.magnific.com/free-photo/thai-food-som-tum-papaya-salad_1150-38091.jpg?semt=ais_incoming&w=740&q=80",
+      "spice": 5,
+      "allergens": [
+        "Fish Sauce",
+        "Peanuts"
+      ],
+      "dietary": [
+        "Very Spicy"
+      ],
+      "color": "#27ae60"
+    },
+    {
+      "name": "Massaman Curry",
+      "region": "South / Central",
+      "image": "https://www.favfamilyrecipes.com/wp-content/uploads/2026/04/Chicken-Massaman-Curry-top-view.jpg",
+      "spice": 2,
+      "allergens": [
+        "Peanuts"
+      ],
+      "dietary": [
+        "Halal-friendly"
+      ],
+      "color": "#c05621"
+    },
+    {
+      "name": "Mango Sticky Rice",
+      "region": "All",
+      "image": "https://www.chenabgourmet.com/wp-content/uploads/2024/02/sticky-rice-with-mango-recipe.jpg",
+      "spice": 0,
+      "allergens": [],
+      "dietary": [
+        "Vegan",
+        "Dessert"
+      ],
+      "color": "#f2994a",
+      "isVegan": true
+    },
+    {
+      "name": "Pad See Ew",
+      "region": "Central",
+      "image": "https://christieathome.com/wp-content/uploads/2023/12/pad-see-ew-4.jpg",
+      "spice": 0,
+      "allergens": [
+        "Gluten",
+        "Shellfish Optional"
+      ],
+      "dietary": [
+        "Stir-fried"
+      ],
+      "color": "#4a4a4a"
+    },
+    {
+      "name": "Khao Man Gai",
+      "region": "Central",
+      "image": "https://www.thespruceeats.com/thmb/bGeARnS56XAFr1DgyFxe_gpSusA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/thai-khao-man-gai-4767706-hero-01-08fec21125fe4d3bbd00d53ab95de058.jpg",
+      "spice": 1,
+      "allergens": [],
+      "dietary": [
+        "Halal-friendly",
+        "Mild"
+      ],
+      "color": "#dfdfdf"
+    },
+    {
+      "name": "Gaeng Pa",
+      "region": "West",
+      "image": "https://img.wongnai.com/p/1920x0/2020/02/24/a148bf8c6aaf42b283243536d417bb67.jpg",
+      "spice": 5,
+      "allergens": [
+        "Fish Sauce"
+      ],
+      "dietary": [
+        "Very Spicy",
+        "Jungle Curry"
+      ],
+      "color": "#8b4a2a"
+    },
+    {
+      "name": "Seafood Platter",
+      "region": "East",
+      "image": "https://khaonakhonpathom.com/wp-content/uploads/2022/04/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%A5%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%A5-%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B8%A2%E0%B8%B3-8.jpg",
+      "spice": 2,
+      "allergens": [
+        "Shellfish",
+        "Fish Sauce"
+      ],
+      "dietary": [
+        "Fresh Catch"
+      ],
+      "color": "#27ae60"
+    }
+  ],
+  "tips": [
+    { "topic": "Temple Rules", "sensitivity": "High", "dos": ["Dress modestly (shoulders/knees)", "Remove shoes", "Sit with feet tucked away"], "donts": ["Point feet at Buddha", "Climb on sacred structures", "Touch a monk (for women)"] },
+    { "topic": "Greeting (Wai)", "sensitivity": "Low", "dos": ["Bow head slightly", "Hands together at chest", "Wai elders first"], "donts": ["Wai children or waitstaff", "Use excessive physical contact"] },
+    { "topic": "The Head", "sensitivity": "High", "dos": ["Respect personal space"], "donts": ["Touch anyone's head", "Pass objects over the head"] },
+    { "topic": "The Feet", "sensitivity": "High", "dos": ["Keep feet on the ground"], "donts": ["Point feet at people/objects", "Rest feet on tables"] },
+    { "topic": "Monarchy", "sensitivity": "High", "dos": ["Stand for Royal Anthem", "Speak respectfully"], "donts": ["Criticize the Royal family", "Step on money (has King's face)"] },
+    { "topic": "Monks", "sensitivity": "High", "dos": ["Offer seats on transport", "Give way on sidewalks"], "donts": ["Touch monks (if female)", "Stand higher than a seated monk"] },
+    { "topic": "Dining", "sensitivity": "Medium", "dos": ["Use spoon to eat", "Fork is for pushing food", "Share dishes"], "donts": ["Use fork to put food in mouth", "Leave chopsticks in the bowl"] },
+    { "topic": "Public Conduct", "sensitivity": "Medium", "dos": ["Keep a \"Cool Heart\" (Jai Yen)", "Speak softly"], "donts": ["Public displays of affection", "Angry outbursts or shouting"] }
+  ]
+}
